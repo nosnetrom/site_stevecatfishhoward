@@ -1,0 +1,303 @@
+*, html, body {
+    margin: 0;
+}
+body {
+    background-color: #392727;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+h1, h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.667;
+}
+p, li, label, th, td {
+    font-size: 1.625rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+section a, 
+footer a {
+    color: #BC5B50;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #392727;
+}
+section a:hover,
+footer a:hover,
+section a:active,
+footer a:active {
+    color: #B9B7B6;
+    text-decoration: none;
+    border-bottom: dotted 2px;
+}
+.titleTag {
+    font-size: 1rem;
+}
+.bg {
+    display: flex;
+    background-image: url('../img/steve_main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 12;
+    background-position: center center;
+}
+header {
+    background-color: #392727;
+    text-align: center;
+    padding: 1rem;
+    color: #B9B7B6;
+    flex-grow: 1;
+}
+section {
+    min-height: 100%;
+}
+section, footer {
+    background-color: rgb(198, 91, 80, 0.75);
+    width: 100%;
+}
+footer {
+    background-color: #392727;
+}
+section *, footer * {
+    color: #B9B7B6;
+    text-shadow: 1px 1px 0 #392727;
+}
+footer * {
+    text-align: center;
+    font-size: .8rem;
+}
+h1 {
+    text-shadow: 3px 3px 6px #BC5B50;
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+table {
+    margin: auto auto;
+}
+table, th, td {
+    border: 1px solid;
+}
+th, td {
+    padding: .25rem;
+    vertical-align: top;
+}
+.btn-primary {
+    background-color: #BC5B50;
+    border: none;
+}
+body.home li.home,
+body.bio li.bio,
+body.contact li.contact, 
+body.discography li.discography,
+body.photos li.photos,
+body.videos li.videos {
+    background-color: #392727;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10px;
+}
+@media (min-width: 1024px) {
+    .bg {
+        width: 64rem;
+        /* height: calc(100vh - 14rem); */
+        flex-grow: 100;
+        /* min-height: 100vh; */
+    }
+    section, footer {
+        width: 64rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    footer {
+        margin: 0 auto;
+    }
+    h2 {
+        margin-bottom: 1.33rem;
+    }
+    h2 > * {
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 1023px) {
+    .titleTag {
+        font-size: .8rem;
+    }
+    p, li, label, th, td {
+        font-size: 1.25rem;
+    }
+    .bg {
+        width: 100%;
+   }
+   section, footer {
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    footer {
+        margin: 0 auto;
+    }
+    footer * {
+        font-size: .8rem;
+    }
+    h2 {
+        margin-bottom: 1.33rem;
+    }
+    h2 > * {
+        margin-left: 1.33rem;
+    }
+}
+/* Nav menu: https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ */
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: #392727;
+    z-index: -1;
+}
+
+#main-menu {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background: #BC5B50;
+  margin: 0px;  
+  z-index: 9;
+}
+
+#main-menu ul {
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 9;
+}
+
+#main-menu li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+#main-menu a {
+  color: #B9B7B6;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#main-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 2.5rem;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom, 
+      white 0%, white 20%, 
+      #392727 20%, #392727 40%, 
+      white 40%, white 60%, 
+      #392727 60%, #392727 80%, 
+      white 80%, white 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #BC5B50;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 6px rgba(0,0,0,0.33);
+}
+
+#hamburger-menu h3 {
+  color: #392727;
+  font-size: 2rem;
+  /* text-shadow: 1px 1px 1px #B9B7B6; */
+  cursor: pointer;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #B9B7B6;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #392727;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+#main-menu {
+    display: none;
+}
+#hamburger-menu {
+    display: inline;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 1079px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+  h2 {
+      font-size: 1.25rem;
+  }
+  #hamburger-menu {
+      width: 22px;
+      height: 22px;
+      top: 26px;
+  }
+}
+
+
+
