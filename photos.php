@@ -28,15 +28,32 @@
         <div class="bg">
             <section class="photos">
                 <h2 id="photos">Photos</h2>
+                <figure>
+                    <img class='thumb' 
+                        src="./img/steve_main-thumb.jpg" 
+                        alt="Steve, soloing with the Blues Brothers Band" 
+                        label="Steve, soloing with the Blues Brothers Band" 
+                        data-fullsize="./img/steve_main.jpg" />
+                    <figcaption>Steve soloing</figcaption>
+                </figure>
             </section>
         </div>
         <?php
             include './inc/footer.php';
         ?>
         <script type="text/javascript">
-		$(document).ready(function() {
-			$('#currentYr').html(upToDate);
-		});	
-	</script>
+            $(document).ready(function() {
+                $('#currentYr').html(upToDate);
+            });	
+
+            $("img.thumb").click(function(){
+                var photoSrc = $(this).data('fullsize');
+                $('body').append("<div class='big-img-cont'><img src='"+photoSrc+"' /><a class='close-img' href='javascript:void(0);'>Close</a></div>");
+            });
+
+            $(document).on( "click", ".close-img", function(){
+                $(".big-img-cont").remove();
+            } );
+	    </script>
     </body>
 </html>

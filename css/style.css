@@ -101,6 +101,34 @@ body.videos li.videos {
     margin-right: -10px;
     padding-left: 10px;
 }
+/* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
+.big-img-cont {
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.667);
+    z-index: 3;
+}
+.big-img-cont img {
+    display: block;
+    height: 90vh;
+    width: auto;
+    border: solid 6px #B9B7B6;
+    z-index: 5;
+}
+.big-img-cont .close-img {
+    color: white;
+    font-size: 1.333rem;
+    position: absolute;
+    top: .5rem;
+    z-index: 5;
+}
 @media (min-width: 1024px) {
     .bg {
         width: 64rem;
