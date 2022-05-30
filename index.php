@@ -12,6 +12,7 @@
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       
+        <link href="//cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">        <link href="./css/style.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <script src="//cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="//cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
@@ -25,8 +26,8 @@
             include './inc/header.php';
         ?>
        <div class="bg">
-            <section class="bio">
-                <h2 id="bio">Biography</h2>
+            <section class="home">
+                <h2 id="home">About Steve &ldquo;Catfish&rdquo; Howard</h2>
                 <p>Labore culpa ipsum ullamco fugiat cillum incididunt duis fugiat reprehenderit nisi ad consectetur. Ullamco consectetur anim adipisicing nostrud. Lorem ullamco et id excepteur ad est consequat ad est aliquip.</p>
                 <p>Incididunt sunt culpa amet nostrud minim et irure adipisicing enim sint amet est ipsum sit. Magna aliqua irure ipsum duis nisi irure laborum velit minim eiusmod velit et mollit quis. Elit eiusmod et duis officia ullamco sint exercitation cillum eu aliquip. Ipsum elit mollit qui veniam et occaecat deserunt nisi aliqua nostrud occaecat incididunt.</p>
             </section>

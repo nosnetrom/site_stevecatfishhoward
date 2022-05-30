@@ -3,8 +3,6 @@
 }
 body {
     background-color: #392727;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     overflow-y: scroll;
 }
@@ -39,35 +37,47 @@ footer a:active {
     background-image: url('../img/steve_main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 9rem;
     margin-left: auto;
     margin-right: auto;
-    flex-grow: 12;
     background-position: center center;
+    min-height: calc(100vh - 14rem);
 }
 header {
     background-color: #392727;
     text-align: center;
     padding: 1rem;
     color: #B9B7B6;
-    flex-grow: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 section {
+    margin-top: 1rem !important;
     min-height: 100%;
-}
-section, footer {
     background-color: rgb(198, 91, 80, 0.75);
     width: 100%;
+    box-shadow: inset 0 0 12px rgba(57, 39, 39, 0.5);
 }
 footer {
     background-color: #392727;
+    width: 100%;
 }
 section *, footer * {
-    color: #B9B7B6;
+    color: #cfcfcf;
     text-shadow: 1px 1px 0 #392727;
+}
+section .videoWrapper {
+    margin: 2rem auto;
+    width: 560px;
 }
 footer * {
     text-align: center;
     font-size: .8rem;
+}
+footer p {
+    line-height: 1.2;
 }
 h1 {
     text-shadow: 3px 3px 6px #BC5B50;
@@ -101,6 +111,17 @@ body.videos li.videos {
     margin-right: -10px;
     padding-left: 10px;
 }
+section .videoList {
+    text-align: center;
+    line-height: 1.2;
+}
+section .videoLink {
+    cursor: pointer;
+}
+#ytPlayer {
+    border: solid .667rem #8F8798;
+    border-radius: .667rem;
+}
 /* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
 .big-img-cont {
     position: absolute;
@@ -132,9 +153,6 @@ body.videos li.videos {
 @media (min-width: 1024px) {
     .bg {
         width: 64rem;
-        /* height: calc(100vh - 14rem); */
-        flex-grow: 100;
-        /* min-height: 100vh; */
     }
     section, footer {
         width: 64rem;

@@ -28,6 +28,13 @@
         <div class="bg">
             <section class="video">
                 <h2 id="video">YouTube&copy; Videos</h2>
+                <p class="videoList">
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/G9lSQf1rdCw">Orange County, 2017</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/R3n53AzL6Kg">Austin TX, 2019</span>
+                </p>
+                <div class="videoWrapper">
+                <iframe id="ytPlayer" width="560" height="315" src="https://www.youtube.com/embed/G9lSQf1rdCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </section>
         </div>
         <?php
@@ -37,6 +44,11 @@
 		$(document).ready(function() {
 			$('#currentYr').html(upToDate);
 		});
+
+        $('.videoLink').click(function() {
+            var mySrc = $(this).data('src');
+            $('#ytPlayer').attr('src', mySrc);
+        })
 
 	</script>
     </body>
