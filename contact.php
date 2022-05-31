@@ -28,7 +28,7 @@
         <div class="bg">
             <section class="contact">
                 <h2 id="contact">Contact Steve</h2>
-
+                <div class="formContainer">
                 <?php
                 if ( isset ( $_POST [ 'btnSubmit' ] ) &&  $_POST [ 'txtFoo' ] == "" && $_POST ['whatYr'] == date("Y") ){
 
@@ -72,7 +72,7 @@
                         </p>
                     </form>
                     <?php } ?>
-
+                </div>
 
             </section>
         </div>

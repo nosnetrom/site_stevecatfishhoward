@@ -133,6 +133,9 @@ section .videoLink {
     border: solid .667rem var(--accentGry);
     border-radius: .667rem;
 }
+div.formContainer {
+    padding: 1rem 2rem;
+}
 /* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
 .big-img-cont {
     position: absolute;
