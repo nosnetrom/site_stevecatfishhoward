@@ -1,8 +1,18 @@
+:root {
+    --bg: #392727; 
+    --text: #B9B7B6;
+    --accentOrg: #BC5B50;
+    --accentBrn: #7D5752;
+    --accentGry: #8F8798;
+  }
+
+
+
 *, html, body {
     margin: 0;
 }
 body {
-    background-color: #392727;
+    background-color: var(--bg);
     min-height: 100vh;
     overflow-y: scroll;
 }
@@ -17,15 +27,15 @@ p, li, label, th, td {
 }
 section a, 
 footer a {
-    color: #BC5B50;
+    color: var(--accentOrg);
     font-weight: bold;
-    text-shadow: 1px 1px 0 #392727;
+    text-shadow: 1px 1px 0 var(--bg);
 }
 section a:hover,
 footer a:hover,
 section a:active,
 footer a:active {
-    color: #B9B7B6;
+    color: var(--text);
     text-decoration: none;
     border-bottom: dotted 2px;
 }
@@ -44,10 +54,10 @@ footer a:active {
     min-height: calc(100vh - 14rem);
 }
 header {
-    background-color: #392727;
+    background-color: var(--bg);
     text-align: center;
     padding: 1rem;
-    color: #B9B7B6;
+    color: var(--text);
     position: fixed;
     top: 0;
     left: 0;
@@ -61,12 +71,12 @@ section {
     box-shadow: inset 0 0 12px rgba(57, 39, 39, 0.5);
 }
 footer {
-    background-color: #392727;
+    background-color: var(--bg);
     width: 100%;
 }
 section *, footer * {
     color: #cfcfcf;
-    text-shadow: 1px 1px 0 #392727;
+    text-shadow: 1px 1px 0 var(--bg);
 }
 section .videoWrapper {
     margin: 2rem auto;
@@ -80,7 +90,7 @@ footer p {
     line-height: 1.2;
 }
 h1 {
-    text-shadow: 3px 3px 6px #BC5B50;
+    text-shadow: 3px 3px 6px var(--accentOrg);
     font-size: 3rem;
 }
 h2 {
@@ -97,8 +107,9 @@ th, td {
     vertical-align: top;
 }
 .btn-primary {
-    background-color: #BC5B50;
+    background-color: var(--accentBrn);
     border: none;
+    box-shadow: 1px 1px 1px var(--bg);
 }
 body.home li.home,
 body.bio li.bio,
@@ -106,7 +117,7 @@ body.contact li.contact,
 body.discography li.discography,
 body.photos li.photos,
 body.videos li.videos {
-    background-color: #392727;
+    background-color: var(--bg);
     margin-left: -10px;
     margin-right: -10px;
     padding-left: 10px;
@@ -119,7 +130,7 @@ section .videoLink {
     cursor: pointer;
 }
 #ytPlayer {
-    border: solid .667rem #8F8798;
+    border: solid .667rem var(--accentGry);
     border-radius: .667rem;
 }
 /* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
@@ -140,7 +151,7 @@ section .videoLink {
     display: block;
     height: 90vh;
     width: auto;
-    border: solid 6px #B9B7B6;
+    border: solid 6px var(--text);
     z-index: 5;
 }
 .big-img-cont .close-img {
@@ -207,7 +218,7 @@ section .videoLink {
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
-    background: #392727;
+    background: var(--bg);
     z-index: -1;
 }
 
@@ -215,7 +226,7 @@ section .videoLink {
   display: block;
   height: 100px;
   width: 100%;
-  background: #BC5B50;
+  background: var(--accentOrg);
   margin: 0px;  
   z-index: 9;
 }
@@ -238,7 +249,7 @@ section .videoLink {
 }
 
 #main-menu a {
-  color: #B9B7B6;
+  color: var(--text);
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -265,9 +276,9 @@ section .videoLink {
     background: linear-gradient(
       to bottom, 
       white 0%, white 20%, 
-      #392727 20%, #392727 40%, 
+      var(--bg) 20%, var(--bg) 40%, 
       white 40%, white 60%, 
-      #392727 60%, #392727 80%, 
+      var(--bg) 60%, var(--bg) 80%, 
       white 80%, white 100%
     );
 }
@@ -279,7 +290,7 @@ section .videoLink {
     left: -250px;
     width: 200px;
     height: 100%;
-    background-color: #BC5B50;
+    background-color: var(--accentOrg);
     transition: 0.3s;
     padding: 0px 10px;
     box-sizing: border-box;
@@ -287,7 +298,7 @@ section .videoLink {
 }
 
 #hamburger-menu h3 {
-  color: #392727;
+  color: var(--bg);
   font-size: 2rem;
   /* text-shadow: 1px 1px 1px #B9B7B6; */
   cursor: pointer;
@@ -303,10 +314,10 @@ section .videoLink {
 }
 
 #hamburger-menu a {
-  color: #B9B7B6;
+  color: var(--text);
   font-size: 1.3rem;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #392727;
+  text-shadow: 1px 1px 1px var(--bg);
 }
 
 #hamburger-menu a:hover {
