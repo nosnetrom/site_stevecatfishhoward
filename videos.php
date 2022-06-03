@@ -29,11 +29,20 @@
             <section class="video">
                 <h2 id="video">YouTube&copy; Videos</h2>
                 <p class="videoList">
-                    <span class="videoLink" data-src="https://www.youtube.com/embed/G9lSQf1rdCw">Orange County, 2017</span> | 
-                    <span class="videoLink" data-src="https://www.youtube.com/embed/R3n53AzL6Kg">Austin TX, 2019</span>
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/wh15LOppcWQ">Paul McCartney, "Silly Love Songs"</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/5e68zyq8lQg">With Peter Maffey (German pop star)</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/4U02P_DbP-A">Delbert McClinton</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/m0hwq7mmLVg">Junior Wills, "That's What Love Will Make You Do"</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/rX9pEsdMkzE">Albert Collins, Austin City Limits</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/kBFoGJGLgFw">Original Blues Brothers Band, "Minnie the Moocher"</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/JZQ9N5q06O8">Labelle, "Lady Marmalade"</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/mu0HCKbPTmU">Paul McCartney, "The Long And Winding Road" (trumpet solo)</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/MBJu1-IDPsE">N'Awlins Gumbo Kings, WFAA-TV</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/fMKfnMjuURA">Albert Collins, Mt. Fuji</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/FgZSdelfH5A">Allan Toussaint, "Country John"</span> 
                 </p>
                 <div class="videoWrapper">
-                <iframe id="ytPlayer" width="560" height="315" src="https://www.youtube.com/embed/G9lSQf1rdCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="ytPlayer" width="560" height="315" src="https://www.youtube.com/embed/wh15LOppcWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
         </div>

@@ -28,14 +28,120 @@
         <div class="bg">
             <section class="photos">
                 <h2 id="photos">Photos</h2>
-                <figure>
-                    <img class='thumb' 
-                        src="./img/steve_main-thumb.jpg" 
-                        alt="Steve, soloing with the Blues Brothers Band" 
-                        label="Steve, soloing with the Blues Brothers Band" 
-                        data-fullsize="./img/steve_main.jpg" />
-                    <figcaption>Steve soloing</figcaption>
-                </figure>
+                <div class="photoWrapper" style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 100%;">
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/steve_main-thumb.jpg" 
+                            alt="Steve, soloing with the Blues Brothers Band" 
+                            label="Steve, soloing with the Blues Brothers Band" 
+                            data-fullsize="./img/steve_main.jpg" />
+                        <figcaption>Steve soloing</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers_Horns-thumb.jpg" 
+                            alt="Blues Brothers Horns" 
+                            label="Blues Brothers Horns" 
+                            data-fullsize="./img/Blues_Brothers_Horns.jpg" />
+                        <figcaption>Blues Brothers Horns</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers_Horns2_thumb.jpg" 
+                            alt="Blues Brothers Horns (2)" 
+                            label="Blues Brothers Horns (2)" 
+                            data-fullsize="./img/Blues_Brothers_Horns2.jpg" />
+                        <figcaption>Blues Brothers Horns (2)</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers-group_shot_Russia_thumb.jpg" 
+                            alt="Blues Brothers in Russia" 
+                            label="Blues Brothers in Russia" 
+                            data-fullsize="./img/Blues_Brothers-group_shot_Russia.jpg" />
+                        <figcaption>Blues Brothers in Russia</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers-group_shot_thumb.jpg" 
+                            alt="Blues Brothers group shot" 
+                            label="Blues Brothers group shot" 
+                            data-fullsize="./img/Blues_Brothers-group_shot.jpg" />
+                        <figcaption>Blues Brothers group shot</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers-group_shot-partial_thumb.jpg" 
+                            alt="Blues Brothers, partial group shot" 
+                            label="Blues Brothers, partial group shot" 
+                            data-fullsize="./img/Blues_Brothers-group_shot-partial.jpg" />
+                        <figcaption>Blues Brothers, partial group shot</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Blues_Brothers-group_shot2_thumb.jpg" 
+                            alt="Blues Brothers group shot (2)" 
+                            label="Blues Brothers group shot (2)" 
+                            data-fullsize="./img/Blues_Brothers-group_shot2.jpg" />
+                        <figcaption>Blues Brothers group shot (2)</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/_thumb.jpg" 
+                            alt="" 
+                            label="" 
+                            data-fullsize="./img/.jpg" />
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
             </section>
         </div>
         <?php
@@ -47,8 +153,10 @@
             });	
 
             $("img.thumb").click(function(){
-                var photoSrc = $(this).data('fullsize');
-                $('body').append("<div class='big-img-cont'><img src='"+photoSrc+"' /><a class='close-img' href='javascript:void(0);'>Close</a></div>");
+                if (window.innerWidth > 800) {
+                    var photoSrc = $(this).data('fullsize');
+                    $('body').append("<div class='big-img-cont'><img src='"+photoSrc+"' /><a class='close-img' href='javascript:void(0);'>Close</a></div>");
+                }
             });
 
             $(document).on( "click", ".close-img", function(){
