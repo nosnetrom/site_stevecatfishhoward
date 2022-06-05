@@ -87,11 +87,19 @@
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
+                            src="./img/Elliott_Randall_thumb.jpg" 
+                            alt="Elliott Randall" 
+                            label="Elliott Randall" 
+                            data-fullsize="./img/Elliott_Randall.jpg" />
+                        <figcaption>With Elliiott Randall</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/George_Clinton_thumb.jpg" 
+                            alt="George Clinton" 
+                            label="George Clinton" 
+                            data-fullsize="./img/George_Clinton.jpg" />
+                        <figcaption>With George Clinton</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -103,42 +111,82 @@
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
+                            src="./img/Lee_Thornburg_thumb.jpg" 
+                            alt="Lee Thornburg" 
+                            label="Lee Thornburg" 
+                            data-fullsize="./img/Lee_Thornburg.jpg" />
+                        <figcaption>With Lee Thornburg</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
+                            src="./img/Leon_Pendarvis-Lou_Marini_thumb.jpg" 
+                            alt="Leon Pendarvis and Lou Marini" 
+                            label="Leon Pendarvis and Lou Marini" 
+                            data-fullsize="./img/Leon_Pendarvis-Lou_Marini.jpg" />
+                        <figcaption>With Leon Pendarvis and Lou Marini</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
+                            src="./img/Steve_home-studio_thumb.jpg" 
+                            alt="Steve's home studio" 
+                            label="Steve's home studio" 
+                            data-fullsize="./img/not-available.jpg" />
+                        <figcaption>Steve's home studio</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
+                            src="./img/steve_wings-horns_thumb.jpg" 
+                            alt="Wings horn section" 
+                            label="Wings horn section" 
+                            data-fullsize="./img/steve_wings-horns.jpg" />
+                        <figcaption>Steve and the Wings horn section</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
+                            src="./img/steve_with_paul_thumb.jpg" 
+                            alt="Steve with Paul McCartney" 
+                            label="Steve with Paul McCartney" 
+                            data-fullsize="./img/steve_with_paul.jpg" />
+                        <figcaption>Steve with Paul McCartney</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/steve-howard_cavern-club_thumb.jpg" 
+                            alt="Steve at the Cavern Club" 
+                            label="Steve at the Cavern Club" 
+                            data-fullsize="./img/not-available.jpg" />
+                        <figcaption>Steve at the Cavern Club</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/steve-howard_thumb.jpg" 
+                            alt="Portrait of Steve" 
+                            label="Portrait of Steve" 
+                            data-fullsize="./img/not-available.jpg" />
+                        <figcaption>Portrait of Steve</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Tom_Malone-Lou_Marini_thumb.jpg" 
+                            alt="Tom Malone and Lou Marini" 
+                            label="Tom Malone and Lou Marini" 
+                            data-fullsize="./img/Tom_Malone-Lou_Marini.jpg" />
+                        <figcaption>With Tom Malone and Lou Marini</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Tony_Baker_thumb.jpg" 
+                            alt="Tony Baker" 
+                            label="Tony Baker" 
+                            data-fullsize="./img/Tony_Baker.jpg" />
+                        <figcaption>With Tony Baker</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Wings_horns_thumb.jpg" 
+                            alt="Wings horn section" 
+                            label="Wings horn section" 
+                            data-fullsize="./img/not-available.jpg" />
                         <figcaption></figcaption>
                     </figure>
                 </div>
@@ -153,7 +201,7 @@
             });	
 
             $("img.thumb").click(function(){
-                if (window.innerWidth > 800) {
+                if (window.innerWidth >= 1200) {
                     var photoSrc = $(this).data('fullsize');
                     $('body').append("<div class='big-img-cont'><img src='"+photoSrc+"' /><a class='close-img' href='javascript:void(0);'>Close</a></div>");
                 }

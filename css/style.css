@@ -110,9 +110,6 @@ th, td {
     padding: .25rem;
     vertical-align: top;
 }
-figure {
-    margin: 1rem !important;
-}
 .btn-primary {
     background-color: var(--accentBrn);
     border: none;
@@ -147,6 +144,7 @@ div.photoWrapper {
     display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 /* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
 .big-img-cont {
@@ -195,6 +193,9 @@ div.photoWrapper {
     h2 > * {
         margin-left: 2rem;
     }
+    figure {
+        margin: 1rem;
+    }
 }
 @media (max-width: 1023px) {
     .titleTag {
@@ -221,6 +222,15 @@ div.photoWrapper {
     }
     h2 > * {
         margin-left: 1.33rem;
+    }
+    div.photoWrapper {
+        display: block;
+    }
+    div.photoWrapper figure {
+        margin: 1rem auto;
+    }
+    figure {
+        margin: 1rem auto;
     }
 }
 /* Nav menu: https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ */
