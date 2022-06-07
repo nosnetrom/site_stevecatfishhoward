@@ -28,6 +28,7 @@
         <div class="bg">
             <section class="photos">
                 <h2 id="photos">Photos</h2>
+                <p>On larger screens, clicking on a photo will display an enlarged version of that photo.</p>
                 <div class="photoWrapper" style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 100%;">
                     <figure>
                         <img class='thumb' 

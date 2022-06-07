@@ -85,16 +85,140 @@
                             <td>Live At The Gypsy Tea Room:<br />Chickenhawks</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td>2001</td>
+                            <td>Wingspan: Hits in History:<br />Paul McCartney</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td>2001</td>
+                            <td>Heute Vor Dreissig Jahren:<br />Peter Maffay</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td>2001</td>
+                            <td>Here and There: The Uncollected B. B. King:<br />B. B. King</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>Suspicion:<br />Coco Montoya</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>Levee Town:<br />Sonny Landreth</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>Winter Blues:<br />Edgar Winter</td>
+                        </tr>
+                        <tr>
+                            <td>1999</td>
+                            <td>Baton Rouge:<br />Larry Garner</td>
+                        </tr>
+                        <tr>
+                            <td>1996</td>
+                            <td>The Big Squeeze:<br />C. J. Chenier</td>
+                        </tr>
+                        <tr>
+                            <td>1996</td>
+                            <td>Texas Soul:<br />W. C. Clark</td>
+                        </tr>
+                        <tr>
+                            <td>1996</td>
+                            <td>You Need To Live A Little:<br />Larry Garner</td>
+                        </tr>
+                        <tr>
+                            <td>1996</td>
+                            <td>The Real Deal:<br />Edgar Winter</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>The Blues Keep Following Me Around:<br />Billy Branch</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>South of I-10:<br />Sonny Landreth</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Soul's Edge:<br />Snooks Egland</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Shine Me Up:<br />Bobby Parker</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>The Man:<br />Clarence "Gatemouth" Brown</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Live '92/'93:<br />Albert Collins</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Get Wise To Yourself:<br />Guitar Shorty</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Everybody's Gettin' Some:<br />Junior Wells</td>
+                        </tr>
+                        <tr>
+                            <td>1994</td>
+                            <td>Live at the House Of Blues:<br />Solomon Burke</td>
+                        </tr>
+                        <tr>
+                            <td>1994</td>
+                            <td>Layin' In The Alley:<br />Big Joe and the Dynaflows</td>
+                        </tr>
+                        <tr>
+                            <td>1994</td>
+                            <td>French Rockin' Boogie:<br />Geno Delafose</td>
+                        </tr>
+                        <tr>
+                            <td>1993</td>
+                            <td>Collins Mix:<br />Albert Collins</td>
+                        </tr>
+                        <tr>
+                            <td>1982</td>
+                            <td>Live from Austin City Limits:<br />Delbert McClinton</td>
+                        </tr>
+                        <tr>
+                            <td>1979</td>
+                            <td>Back To The Egg:<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1979</td>
+                            <td>Concert For The People Of Kampuchea (Rockestra sessions):<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1976</td>
+                            <td>Wings At The Speed Of Sound:<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1976</td>
+                            <td>Wings:<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1976</td>
+                            <td>Wings Over America:<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1975</td>
+                            <td>Venus And Mars:<br />Paul McCartney and Wings</td>
+                        </tr>
+                        <tr>
+                            <td>1975</td>
+                            <td>Southern Nights:<br />Allan Toussaint</td>
+                        </tr>
+                        <tr>
+                            <td>1975</td>
+                            <td>Phoenix:<br />Patti Labelle</td>
+                        </tr>
+                        <tr>
+                            <td>1974</td>
+                            <td>Tracy Nelson:<br />Tracy Nelson</td>
+                        </tr>
+                        <tr>
+                            <td>1974</td>
+                            <td>Nightbirds:<br />Patti Labelle/Labelle</td>
                         </tr>
                     </tbody>
                 </table>

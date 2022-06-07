@@ -30,6 +30,10 @@
                 <h2 id="home">About Steve &ldquo;Catfish&rdquo; Howard</h2>
                 <p>Labore culpa ipsum ullamco fugiat cillum incididunt duis fugiat reprehenderit nisi ad consectetur. Ullamco consectetur anim adipisicing nostrud. Lorem ullamco et id excepteur ad est consequat ad est aliquip.</p>
                 <p>Incididunt sunt culpa amet nostrud minim et irure adipisicing enim sint amet est ipsum sit. Magna aliqua irure ipsum duis nisi irure laborum velit minim eiusmod velit et mollit quis. Elit eiusmod et duis officia ullamco sint exercitation cillum eu aliquip. Ipsum elit mollit qui veniam et occaecat deserunt nisi aliqua nostrud occaecat incididunt.</p>
+                <div class="miniPics">
+                    <img src="./img/steve_main_mini.jpg" />
+                    <img src="./img/steve_home-studio_thumb_mini.jpg" />
+                    <img src="./img/steve-howard_thumb_mini.jpg" />
             </section>
         </div>
         <?php

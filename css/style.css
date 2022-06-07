@@ -70,7 +70,7 @@ header {
 section {
     margin-top: 1rem !important;
     min-height: 100%;
-    background-color: rgb(198, 91, 80, 0.75);
+    background-color: rgb(198, 91, 80, 0.85);
     width: 100%;
     box-shadow: inset 0 0 12px rgba(57, 39, 39, 0.5);
 }
@@ -145,6 +145,17 @@ div.photoWrapper {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+div.miniPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto 1rem auto;
+    width: 100%;
+}
+div.miniPics img {
+    display: block;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.5);
 }
 /* https://stackoverflow.com/questions/22257650/open-full-size-image-when-clicking-on-thumbnail-inside-a-div */
 .big-img-cont {
