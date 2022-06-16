@@ -128,11 +128,11 @@
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/Steve_home-studio_thumb.jpg" 
-                            alt="Steve's home studio" 
-                            label="Steve's home studio" 
-                            data-fullsize="./img/not-available.jpg" />
-                        <figcaption>Steve's home studio</figcaption>
+                            src="./img/Dr_John-2_thumb.jpg" 
+                            alt="Steve and Dr. John" 
+                            label="Steve and Dr. John" 
+                            data-fullsize="./img/Dr_John-2.jpg" />
+                        <figcaption>Steve and Dr. John</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
