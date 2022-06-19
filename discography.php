@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.ico">
 
         <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
-        <title>SteveCatfishHoward.com: Home</title>
+        <title>SteveCatfishHoward.com: Discography of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       

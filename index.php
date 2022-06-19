@@ -5,10 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="author" content="Nosnetrom">
-        <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.ico">
 
-        <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
-        <title>SteveCatfishHoward.com: Home</title>
+        <meta name="description" content="Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
+            Jazz has resulted in his being sought out by some of the biggest names in the
+            music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
+            McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
+            airwaves worldwide. This seasoned recording and touring musician is one of the
+            best in the business.">
+        <title>SteveCatfishHoward.com: Home of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       
@@ -28,8 +32,12 @@
        <div class="bg">
             <section class="home">
                 <h2 id="home">About Steve &ldquo;Catfish&rdquo; Howard</h2>
-                <p>Labore culpa ipsum ullamco fugiat cillum incididunt duis fugiat reprehenderit nisi ad consectetur. Ullamco consectetur anim adipisicing nostrud. Lorem ullamco et id excepteur ad est consequat ad est aliquip.</p>
-                <p>Incididunt sunt culpa amet nostrud minim et irure adipisicing enim sint amet est ipsum sit. Magna aliqua irure ipsum duis nisi irure laborum velit minim eiusmod velit et mollit quis. Elit eiusmod et duis officia ullamco sint exercitation cillum eu aliquip. Ipsum elit mollit qui veniam et occaecat deserunt nisi aliqua nostrud occaecat incididunt.</p>
+                <p>Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
+Jazz has resulted in his being sought out by some of the biggest names in the
+music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
+McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
+airwaves worldwide. This seasoned recording and touring musician is one of the
+best in the business.</p>
                 <div class="miniPics">
                     <img src="./img/steve_main_mini.jpg" width="240" />
                     <img src="./img/Blues_Brothers_Horns_thumb_mini.jpg" width="240" />

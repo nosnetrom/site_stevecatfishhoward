@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.ico">
 
         <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
-        <title>SteveCatfishHoward.com: Home</title>
+        <title>SteveCatfishHoward.com: Photos of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       
@@ -36,7 +36,7 @@
                             alt="Steve, soloing with the Blues Brothers Band" 
                             label="Steve, soloing with the Blues Brothers Band" 
                             data-fullsize="./img/steve_main.jpg" />
-                        <figcaption>Steve soloing</figcaption>
+                        <figcaption></figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -68,7 +68,7 @@
                             alt="Blues Brothers group shot" 
                             label="Blues Brothers group shot" 
                             data-fullsize="./img/Blues_Brothers-group_shot.jpg" />
-                        <figcaption>Blues Brothers group shot</figcaption>
+                        <figcaption>Original Blues Brothers Band - Europe</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -76,7 +76,7 @@
                             alt="Blues Brothers, partial group shot" 
                             label="Blues Brothers, partial group shot" 
                             data-fullsize="./img/Blues_Brothers-group_shot-partial.jpg" />
-                        <figcaption>Blues Brothers, partial group shot</figcaption>
+                        <figcaption>L to R: Steve Cropper, Georg Wadenius, Steve, Lee Finkelstein - Poland</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -84,7 +84,7 @@
                             alt="Blues Brothers group shot (2)" 
                             label="Blues Brothers group shot (2)" 
                             data-fullsize="./img/Blues_Brothers-group_shot2.jpg" />
-                        <figcaption>Blues Brothers group shot (2)</figcaption>
+                        <figcaption>OBBB</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -104,14 +104,6 @@
                     </figure>
                     <figure>
                         <img class='thumb' 
-                            src="./img/_thumb.jpg" 
-                            alt="" 
-                            label="" 
-                            data-fullsize="./img/.jpg" />
-                        <figcaption></figcaption>
-                    </figure>
-                    <figure>
-                        <img class='thumb' 
                             src="./img/Lee_Thornburg_thumb.jpg" 
                             alt="Lee Thornburg" 
                             label="Lee Thornburg" 
@@ -126,14 +118,7 @@
                             data-fullsize="./img/Leon_Pendarvis-Lou_Marini.jpg" />
                         <figcaption>With Leon Pendarvis and Lou Marini</figcaption>
                     </figure>
-                    <figure>
-                        <img class='thumb' 
-                            src="./img/Dr_John-2_thumb.jpg" 
-                            alt="Steve and Dr. John" 
-                            label="Steve and Dr. John" 
-                            data-fullsize="./img/Dr_John-2.jpg" />
-                        <figcaption>Steve and Dr. John</figcaption>
-                    </figure>
+                    <!--
                     <figure>
                         <img class='thumb' 
                             src="./img/steve_wings-horns_thumb.jpg" 
@@ -150,21 +135,22 @@
                             data-fullsize="./img/steve_with_paul.jpg" />
                         <figcaption>Steve with Paul McCartney</figcaption>
                     </figure>
+                    -->
                     <figure>
                         <img class='thumb' 
                             src="./img/steve-howard_cavern-club_thumb.jpg" 
-                            alt="Steve at the Cavern Club" 
-                            label="Steve at the Cavern Club" 
+                            alt="Steve with Steve Cropper and OBBB" 
+                            label="Steve with Steve Cropper and OBBB" 
                             data-fullsize="./img/not-available.jpg" />
-                        <figcaption>Steve at the Cavern Club</figcaption>
+                        <figcaption>Steve with Steve Cropper and OBBB</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
                             src="./img/steve-howard_thumb.jpg" 
-                            alt="Portrait of Steve" 
-                            label="Portrait of Steve" 
+                            alt="" 
+                            label="" 
                             data-fullsize="./img/not-available.jpg" />
-                        <figcaption>Portrait of Steve</figcaption>
+                        <figcaption></figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -180,7 +166,7 @@
                             alt="Tony Baker" 
                             label="Tony Baker" 
                             data-fullsize="./img/Tony_Baker.jpg" />
-                        <figcaption>With Tony Baker</figcaption>
+                        <figcaption>With Tony Baker in Norway</figcaption>
                     </figure>
                     <figure>
                         <img class='thumb' 
@@ -188,7 +174,15 @@
                             alt="Wings horn section" 
                             label="Wings horn section" 
                             data-fullsize="./img/not-available.jpg" />
-                        <figcaption></figcaption>
+                        <figcaption>Wings Horn Section in the UK</figcaption>
+                    </figure>
+                    <figure>
+                        <img class='thumb' 
+                            src="./img/Dr_John-2_thumb.jpg" 
+                            alt="Steve and Dr. John" 
+                            label="Steve and Dr. John" 
+                            data-fullsize="./img/Dr_John-2.jpg" />
+                        <figcaption>Steve and Dr. John</figcaption>
                     </figure>
                 </div>
             </section>

@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.ico">
 
         <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
-        <title>SteveCatfishHoward.com: Home</title>
+        <title>SteveCatfishHoward.com: Videos of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       
@@ -30,7 +30,7 @@
                 <h2 id="video">YouTube&copy; Videos</h2>
                 <p class="videoList">
                     <span class="videoLink" data-src="https://www.youtube.com/embed/wh15LOppcWQ">Paul McCartney, "Silly Love Songs"</span> | 
-                    <span class="videoLink" data-src="https://www.youtube.com/embed/5e68zyq8lQg">With Peter Maffey (German pop star)</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/5e68zyq8lQg">With Peter Maffey (German superstar)</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/4U02P_DbP-A">Delbert McClinton</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/m0hwq7mmLVg">Junior Wills, "That's What Love Will Make You Do"</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/rX9pEsdMkzE">Albert Collins, Austin City Limits</span> | 
