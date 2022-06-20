@@ -34,7 +34,7 @@
                 <p>Visit some of Steve's friends and cohorts at:</p>
                 <ul>
                     <li>
-                        John Tropea: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://www.johntropea.com"></a>
+                        John Tropea: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://www.johntropea.com">https://www.johntropea.com</a>
                     </li>
                     <li>
                         Lou "Blue Lou" Marini: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://www.blueloumarini.com">https://www.blueloumarini.com</a>
