@@ -34,6 +34,9 @@
                 <p>Visit some of Steve's friends and cohorts at:</p>
                 <ul>
                     <li>
+                        N'Awlins Gumbo Kings: <a href="http://www.gumbokings.com">http://gumbokings.com</a>
+                    </li>
+                    <li>
                         John Tropea: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://www.johntropea.com">https://www.johntropea.com</a>
                     </li>
                     <li>
