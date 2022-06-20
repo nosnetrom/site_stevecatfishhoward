@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="author" content="Nosnetrom">
-        <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
         <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
         <title>SteveCatfishHoward.com: Videos of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
@@ -42,7 +45,7 @@
                     <span class="videoLink" data-src="https://www.youtube.com/embed/FgZSdelfH5A">Allan Toussaint, "Country John"</span> 
                 </p>
                 <div class="videoWrapper">
-                <iframe id="ytPlayer" width="560" height="315" src="https://www.youtube.com/embed/wh15LOppcWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="ytPlayer" src="https://www.youtube.com/embed/wh15LOppcWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- width="560" height="315" -->
                 </div>
             </section>
         </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="US-en">
     <head>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="author" content="Nosnetrom">
@@ -9,14 +9,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        
-        <meta name="description" content="Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
-            Jazz has resulted in his being sought out by some of the biggest names in the
-            music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
-            McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
-            airwaves worldwide. This seasoned recording and touring musician is one of the
-            best in the business.">
-        <title>SteveCatfishHoward.com: Home of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
+
+        <meta name="description" content="Web site for Steve ''Catfish'' Howard, renowned trumpeter from the Blues Brothers Band and other US national and international acts.">
+        <title>SteveCatfishHoward.com: Favorite links of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
         <link href="//fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">       
@@ -27,27 +22,26 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
         <script src="./js/scripts.js" type="text/javascript"></script>
     </head>
-    <body class="home">
+    <body class="discography">
         <?php
             include './inc/nav.php';
 
             include './inc/header.php';
         ?>
-       <div class="bg">
-            <section class="home">
-                <h2 id="home">About Steve &ldquo;Catfish&rdquo; Howard</h2>
-                <p>Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
-Jazz has resulted in his being sought out by some of the biggest names in the
-music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
-McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
-airwaves worldwide. This seasoned recording and touring musician is one of the
-best in the business.</p>
-                <div class="miniPics">
-                    <img src="./img/steve_main_mini.jpg" width="240" />
-                    <img src="./img/Blues_Brothers_Horns_thumb_mini.jpg" width="240" />
-                    <img src="./img/steve-howard_thumb_mini.jpg" width="240" />
-                </div>
-            </section>
+        <div class="bg">
+            <section class="links">
+                <h2 id="links">Links</h2>
+                <p>Visit some of Steve's friends and cohorts at:</p>
+                <ul>
+                    <li>
+                        Lou "Blue Lou" Marini: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://www.blueloumarini.com">https://www.blueloumarini.com</a>
+                    </li>
+                    <li>
+                        Steve "The Colonel" Cropper: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://playitsteve.com">https://playitsteve.com</a>
+                    </li>
+                </ul>
+
+                </section>
         </div>
         <?php
             include './inc/footer.php';
