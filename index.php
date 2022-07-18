@@ -13,8 +13,7 @@
         <meta name="description" content="Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
             Jazz has resulted in his being sought out by some of the biggest names in the
             music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
-            McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
-            airwaves worldwide. This seasoned recording and touring musician is one of the
+            McCartney, Mike Post, Jim Gaines, and John Snyder has been heard worldwide. This seasoned recording and touring musician is one of the
             best in the business.">
         <title>SteveCatfishHoward.com: Home of the renowned trumpeter of the Blues Brothers Band and other national and international acts</title>
         <link rel="preconnect" href="//fonts.googleapis.com">
@@ -39,8 +38,7 @@
                 <p>Steve Howard's extensive experience as a trumpet player in R&B, Blues, Rock, and
 Jazz has resulted in his being sought out by some of the biggest names in the
 music industry. His work with producers Allen Toussaint, Steve Cropper, Paul
-McCartney, Mike Post, Jim Gaines, and John Snyder has been heard over the
-airwaves worldwide. This seasoned recording and touring musician is one of the
+McCartney, Mike Post, Jim Gaines, and John Snyder has been heard worldwide. This seasoned recording and touring musician is one of the
 best in the business.</p>
                 <div class="miniPics">
                     <img src="./img/steve_main_mini.jpg" width="240" />
