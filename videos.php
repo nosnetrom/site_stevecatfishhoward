@@ -35,7 +35,7 @@
                     <span class="videoLink" data-src="https://www.youtube.com/embed/wh15LOppcWQ">Paul McCartney, "Silly Love Songs"</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/5e68zyq8lQg">With Peter Maffey (German superstar)</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/4U02P_DbP-A">Delbert McClinton, "Givin' It Up For Your Love"</span> | 
-                    <span class="videoLink" data-src="https://www.youtube.com/embed/m0hwq7mmLVg">Junior Wills, "That's What Love Will Make You Do"</span> | 
+                    <span class="videoLink" data-src="https://www.youtube.com/embed/m0hwq7mmLVg">Junior Wells, "That's What Love Will Make You Do"</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/rX9pEsdMkzE">Albert Collins, Austin City Limits</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/kBFoGJGLgFw">Original Blues Brothers Band, "Minnie the Moocher"</span> | 
                     <span class="videoLink" data-src="https://www.youtube.com/embed/JZQ9N5q06O8">Labelle, "Lady Marmalade"</span> | 

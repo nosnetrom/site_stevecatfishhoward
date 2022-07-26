@@ -45,6 +45,9 @@
                     <li>
                         Steve "The Colonel" Cropper: <a style="color: var(--text); text-shadow: none;" target="_blank" href="https://playitsteve.com">https://playitsteve.com</a>
                     </li>
+                    <li>
+                        The Reddcoats: <a style="color: var(--text); text-shadow: none;" target="_blank" href="http://thereddcoats.com">http://thereddcoats.com</a>
+                    </li>
                 </ul>
 
                 </section>
